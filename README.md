@@ -71,7 +71,7 @@ Criar docker-compose.yml:
     python-container:
         build: .
         ports:
-        - "80:80"
+        - "5000:9007"
         volumes:
         - .:/usr/api
 
