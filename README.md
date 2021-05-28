@@ -24,6 +24,28 @@ Criar arquivo requirements:
 
     pip freeze > requirements.txt
 
+Se você abrir o requirements.txt, deverá ver listadas todas as bibliotecas necessárias do projeto.
+
+    certifi==2020.6.20
+    chardet==3.0.4
+    click==7.1.2
+    Flask==1.1.2
+    idna==2.10
+    itsdangerous==1.1.0
+    Jinja2==2.11.2
+    jsonify==0.5
+    MarkupSafe==1.1.1
+    numpy==1.19.2
+    pandas==1.1.3
+    Pillow==8.0.1
+    python-dateutil==2.8.1
+    pytz==2020.1
+    requests==2.24.0
+    six==1.15.0
+    urllib3==1.25.11
+    webcolors==1.4
+    Werkzeug==1.0.1
+
 Dockerfile
 
     FROM python:3.9
