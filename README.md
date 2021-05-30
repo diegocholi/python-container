@@ -24,6 +24,9 @@ Criar arquivo requirements:
 
     pip freeze > requirements.txt
 
+Caso precise fazer um freeze do venv recomendo utilizar o pycharm, como mostrado abaixo:
+![](https://github.com/diegocholi/python-container/blob/main/IMGS_README/freeze%20em%20venv.PNG?raw=true)
+
 Se você abrir o requirements.txt, deverá ver listadas todas as bibliotecas necessárias do projeto.
 
     certifi==2020.6.20
